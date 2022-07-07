@@ -3,7 +3,7 @@ import styles from './Silebar.module.scss';
 
 const cx = classNames.bind(styles);
 
-function Silebar() {
+function Sidebar() {
     return (
         <aside className={cx('warrper')}>
             <h2>Silebar</h2>
@@ -11,4 +11,4 @@ function Silebar() {
     );
 }
 
-export default Silebar;
+export default Sidebar;
