@@ -18,8 +18,9 @@
         color: #828282;
         font-size: 1.6rem;
         background: transparent;
-        caret-color: rgba(254, 44, 85, 1);
         font-family: var(--font-family);
+        padding-right: 40px;
+        caret-color: rgba(254, 44, 85, 1);
     }
 
     input:not(:placeholder-shown) ~ .search-btn {
